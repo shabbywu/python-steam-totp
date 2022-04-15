@@ -23,5 +23,5 @@ Or install from GitHub for latest version.
 ```python
 from steam_totp import generate_twofactor_code_for_time
 
-code = generate_twofactor_code_for_time(secret="your-shared-secret")
+code = generate_twofactor_code_for_time(shared_secret="your-shared-secret")
 ```
