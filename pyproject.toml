@@ -4,6 +4,11 @@ version = "0.1.0"
 description = "Python library to generate Steam-style TOTP auth codes"
 authors = ["shabbywu <shabbywu@qq.com>"]
 
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/shabbywu/distribution"
+homepage = "https://github.com/shabbywu/distribution"
+
 [tool.poetry.dependencies]
 python = ">=2.7,<4.0"
 dataclasses = {version = "==0.7", python = "<3.5"}
