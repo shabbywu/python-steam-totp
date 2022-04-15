@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "steam-totp"
+version = "0.1.0"
+description = "Python library to generate Steam-style TOTP auth codes"
+authors = ["shabbywu <shabbywu@qq.com>"]
+
+[tool.poetry.dependencies]
+python = ">=2.7,<4.0"
+dataclasses = {version = "==0.7", python = "<3.5"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 119
+skip-string-normalization = 'true'
+
+[tool.isort]
+force_grid_wrap = 0
+include_trailing_comma = true
+line_length = 119
+multi_line_output = 3
+use_parentheses = true
