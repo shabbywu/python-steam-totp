@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "steam-totp"
-version = "0.1.0"
+version = "0.1.2"
 description = "Python library to generate Steam-style TOTP auth codes"
 authors = ["shabbywu <shabbywu@qq.com>"]
 
 license = "Apache-2.0"
 readme = "README.md"
-repository = "https://github.com/shabbywu/distribution"
-homepage = "https://github.com/shabbywu/distribution"
+repository = "https://github.com/shabbywu/python-steam-totp"
+homepage = "https://github.com/shabbywu/python-steam-totp"
 
 [tool.poetry.dependencies]
 python = ">=2.7,<4.0"
